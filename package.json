@@ -11,14 +11,16 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4"
   },
-  "name": "webpack",
+  "name": "tracalorie-webpack",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
     "acorn": "^8.12.1",
     "acorn-import-attributes": "^1.9.5",
     "ajv": "^6.12.6",
     "ajv-keywords": "^3.5.2",
+    "bootstrap": "^5.3.3",
     "browserslist": "^4.23.2",
     "buffer-from": "^1.1.2",
     "caniuse-lite": "^1.0.30001643",
@@ -104,6 +106,6 @@
     "dev": "webpack serve"
   },
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "MIT",
+  "description": "A fun little calorie tracker project"
 }
