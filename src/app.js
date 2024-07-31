@@ -57,7 +57,7 @@ import './css/style.css';
       const name = document.getElementById(`${type}-name`);
       const calories = document.getElementById(`${type}-calories`);
   
-      // Validate inputs
+      // Validate inputs//
       if (name.value === '' || calories.value === '') {
         alert('Please fill in all fields');
         return;
